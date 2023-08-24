@@ -1,0 +1,9 @@
+ next state value is dependent upon the previous state value. -----> useReducer
+
+
+**The reducer function contains the custom state logic and takes action & the current state as parameters. Action helps to receive and determine the changes to the application’s state.
+**The initialState can be a single key-value pair but generally, in the case of useReducer Hook, it is an object of various key-value pairs.
+useReducer Hook returns the current state and the dispatch method.
+**The returned state represents the current state, initially set to the initialState that we provide as an argument to the useReducer hook.
+**The dispatch method is used to trigger an action in the reducer function with the help of array destructuring.
+**Reducer function generally returns the next state dependent upon the current state. React store the next state, render the component, and update the UI.
